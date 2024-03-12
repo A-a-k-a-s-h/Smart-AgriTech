@@ -1,0 +1,63 @@
+.predict-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .predict-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .predict-form {
+    margin-bottom: 20px;
+  }
+  
+  .predict-form input[type="file"] {
+    margin-right: 10px;
+  }
+  
+  .predict-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .predict-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .predict-results {
+    margin-top: 20px;
+  }
+  
+  .predict-results h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: green;
+  }
+  
+  .predict-results h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .predict-results p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .result-image {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 10px auto; 
+  }
+  

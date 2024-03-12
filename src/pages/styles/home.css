@@ -1,0 +1,82 @@
+/* Home.css */
+body {
+  background-image: url('./assets/background.jpeg');
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat; /* Do not repeat the background */
+  background-position: center; /* Center the background image */
+  opacity: 0.9;
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.home-content {
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.home-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.home-title,
+.home-description {
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Add hover effect for heading and paragraph */
+.home-title:hover,
+.home-description:hover {
+  color: green; /* Change to your desired hover color */
+  transform: scale(1.1); /* Increase size on hover */
+}
+
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.predict-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.about-button {
+  background-color: #008CBA;
+  color: white;
+}
+
+.predict-button:hover, .about-button:hover {
+  opacity: 0.8;
+}
+

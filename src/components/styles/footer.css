@@ -1,0 +1,35 @@
+/* footer.css */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+  }
+  
+  footer div {
+    display: inline-block;
+    margin: 0 1px;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    color: black;
+  }
+  
+  footer a {
+    color: rgb(65, 53, 53);
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  body {
+    opacity: 0.9;
+  }
